@@ -50,10 +50,13 @@ Contributing to this project
 
 We use the <a href="https://danielkummer.github.io/git-flow-cheatsheet/">Git Flow</a> model on this repository, using the following branches:
 
-/master
-/hotfixes/{hotfix-name}
-/development/
-/feature/{feature-name}
+<code>/master</code>
+
+<code>/hotfixes/{hotfix-name}</code>
+
+<code>/development/</code>
+
+<code>/feature/{feature-name}</code>
 
 New features should be developed in their own 'feature' branch, for example <code>feature/water-hazards</code>.
 
