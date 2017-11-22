@@ -3,18 +3,18 @@ Pixel Golf
 
 Welcome to the Pixel Golf repository.
 
-This is a group project developed by students at the Fallibroome Academy.
+This is a group project developed by students at the Fallibroome Academy as part of The Hayton Academy.
 
 Getting started
 ----
 
-** Dependencies **
+**Dependencies**
 
 Node and Node Package Manager (npm) must be installed.
 
 https://www.npmjs.com/get-npm
 
-** Installing **
+**Installing**
 
 <ol>
 <li>Clone this repository to your machine.</li>
@@ -24,11 +24,11 @@ https://www.npmjs.com/get-npm
 
 This will install all of the dependencies needed to build and run the project.
 
-** Running **
+**Running**
 
 The app will run as a standalone application, simply open /build/index.html.
 
-** Development **
+**Development**
 
 We use the Gulp task runner to speed up development. It will launch the app inside of
 a Browser Sync instance that will auto refresh each time you make a change.
@@ -48,12 +48,19 @@ Contributing to this project
 
 <i>We suggest using <a href="https://www.sourcetreeapp.com/">SourceTree</a> to help you make checkins easier.</i>
 
-We use the Git Flow model on this repository.
+We use the <a href="#https://danielkummer.github.io/git-flow-cheatsheet/">Git Flow</a> model on this repository, using the following branches:
 
-<strong style="color: red;">Do not commit to the trunk / master branch.</strong>
+/master
+/hotfixes/{hotfix-name}
+/development/
+/feature/{feature-name}
 
-New features should be developed in 'feature' branches, for example <code>feature/water-hazards</code>.
+New features should be developed in their own 'feature' branch, for example <code>feature/water-hazards</code>.
 
-** Remember: ** 
+When features are complete, merge the latest development changes INTO the feature branch and address any conflicts.
+Once all conflicts are addressed, and you have confirmed that the feature still works as intended, switch to the
+<code>development</code> branch and merge the feature INTO the development branch.
 
-The <code>development</code> branch is the 'single source of truth' for features in development.
+<strong style="color: red;">Do not commit to the master branch.</strong>
+
+**Remember:** The <code>development</code> branch is the 'single source of truth' for features in development.
