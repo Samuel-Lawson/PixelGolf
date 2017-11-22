@@ -3,7 +3,7 @@ Pixel Golf
 
 Welcome to the Pixel Golf repository.
 
-This is a group project developed by students at the Fallibroome Academy as part of The Hayton Academy.
+This is a group project developed by students at the Fallibroome Academy.
 
 Getting started
 ----
@@ -48,7 +48,7 @@ Contributing to this project
 
 <i>We suggest using <a href="https://www.sourcetreeapp.com/">SourceTree</a> to help you make checkins easier.</i>
 
-We use the <a href="#https://danielkummer.github.io/git-flow-cheatsheet/">Git Flow</a> model on this repository, using the following branches:
+We use the <a href="https://danielkummer.github.io/git-flow-cheatsheet/">Git Flow</a> model on this repository, using the following branches:
 
 /master
 /hotfixes/{hotfix-name}
