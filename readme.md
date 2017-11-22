@@ -64,6 +64,9 @@ When features are complete, merge the latest development changes INTO the featur
 Once all conflicts are addressed, and you have confirmed that the feature still works as intended, switch to the
 <code>development</code> branch and merge the feature INTO the development branch.
 
+Push your changes up to GitHub on the regular to avoid loss. You can push changes to feature branches without
+blocking / messing up other people.
+
 <strong style="color: red;">Do not commit to the master branch.</strong>
 
 **Remember:** The <code>development</code> branch is the 'single source of truth' for features in development.
