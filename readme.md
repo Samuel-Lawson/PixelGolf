@@ -14,6 +14,10 @@ Node and Node Package Manager (npm) must be installed.
 
 https://www.npmjs.com/get-npm
 
+You may also need to install the Gulp-CLI:
+
+https://gulpjs.com/
+
 **Installing**
 
 <ol>
@@ -23,10 +27,6 @@ https://www.npmjs.com/get-npm
 </ol>
 
 This will install all of the dependencies needed to build and run the project.
-
-**Running**
-
-The app will run as a standalone application, simply open /build/index.html.
 
 **Development**
 
@@ -42,6 +42,10 @@ compile to the /build/ folder.
 
 <strong style="color: red;">Do not make changes within the /build/ folder!</strong> Various hooks
 will trigger a clean and rebuild, so any changes will be lost.
+
+**Running**
+
+The app will run as a standalone application, simply open /build/index.html.
 
 Contributing to this project
 ----
